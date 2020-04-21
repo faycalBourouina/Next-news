@@ -13,7 +13,6 @@ export default class Index extends React.Component {
 			const response = await axios.get(`https://node-hnapi.herokuapp.com/news?page=${page}`)
 			return { stories: response.data, page }
 		} catch (e) {
-			console.log(e)
 			const { status, statusText} = e.response; 			
 			return { err: {status, statusText} }
 		}

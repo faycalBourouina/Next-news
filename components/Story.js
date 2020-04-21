@@ -42,6 +42,10 @@ export default (props) => {
 					.story-detail {
 						font-size: 0.8 rem;
 						font-weight: bold;
+						padding-bottom: 1em;
+						border-bottom: 1px solid rgba(0,0,0,1);
+						margin-bottom: 1em;
+
 					}
 					.story-detail span {
 						margin-right: 1em;

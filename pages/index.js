@@ -29,6 +29,14 @@ export default class Index extends React.Component {
 
 	}
 
+	componentDidMount() {
+		if ("serviceWorker" in navigator) {
+			navigator.serviceWorker.register('/service-worker.js')
+			.then(function() { console.log("Service Worker Registered"); })
+			.catch( err => console.log('service worker registration: ', err));
+		}
+	}
+
 	render() {
 		let { page } = this.props;
 		return (

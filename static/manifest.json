@@ -1,0 +1,20 @@
+{
+    "name": "Next News",
+    "short_name": "next-news",
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ff6600",
+    "icons": [
+      {
+        "src": "/static/icons/icon-512x512.png",
+        "sizes": "512*512",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/icons/icon-192x192.png",
+        "sizes": "192*192",
+        "type": "image/png"
+      }
+    ]
+  }
